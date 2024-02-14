@@ -1,0 +1,57 @@
+.container {
+    background-color: transparent;
+}
+
+.header-container {
+    text-align: left;
+    font-size: 30px;
+}
+
+.shadow {
+    color: rgb(209, 242, 132);
+    text-shadow: 3px 1.5px rgb(82, 78, 78);    
+}
+
+.diagonal {
+    border: solid rgb(173, 179, 216) 2px;
+}
+
+.details {
+    margin: 20px;
+    padding: 10px;
+}
+
+.details .diagonal {
+    width: 500px;
+}
+
+.sub-details {
+    margin: 10px;
+}
+
+.sub-details a {
+    text-decoration: none;
+    color: rgb(209, 242, 132);
+}
+
+.sub-details a:active {
+    color: rgb(209, 242, 132);
+}
+
+.sub-details a:hover {
+    color: gray;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .sub-details a {
+        font-size: 60%;
+    }
+
+    .header-container {
+        font-size: 100%;
+    }
+
+    .details .diagonal {
+        width: 250px;
+    }
+}

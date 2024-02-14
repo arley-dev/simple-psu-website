@@ -1,0 +1,48 @@
+#core-values {
+    margin: 0px;
+}
+
+.section-container {
+    padding: 100px;
+}
+
+.sub-details h2 {
+    margin-top: 15px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.sub-details h1 {
+    font-size: 40px;
+    color: rgb(54, 54, 251);
+    text-shadow: 3px 1.5px rgb(82, 78, 78);
+}
+
+.details {
+    margin: 0px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    .header-container {
+        font-size: 100%;
+    }
+    
+    .sub-details h1 {
+        font-size: 25px;
+    }
+
+    .sub-details h2 {
+        font-size: 15px;
+    }
+    
+    .sub-details h2 {
+        margin: auto 4px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .details {
+        padding: 5px;
+    }
+}
